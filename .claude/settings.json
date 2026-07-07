@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.businesswire.com)",
+      "WebFetch(domain:www.businessofapps.com)",
+      "WebFetch(domain:help.airbridge.io)",
+      "Bash(ls node_modules/.bin/next)",
+      "Bash(ls node_modules/framer-motion)",
+      "Bash(ls node_modules/lucide-react)",
+      "WebFetch(domain:tenjin.com)",
+      "WebFetch(domain:splitmetrics.com)",
+      "Bash(npm run *)",
+      "Bash(npm ls *)",
+      "Bash(npx --version)",
+      "Bash(npx playwright *)",
+      "Bash(ls \"C:\\\\Users\\\\wisebirds\\\\AppData\\\\Local\\\\ms-playwright\" 2>/dev/null | grep -i chromium || echo \"chromium not found yet\")",
+      "Read(//c/Users/wisebirds/AppData/Local/ms-playwright/**)",
+      "Bash(node \"C:\\\\Users\\\\WISEBI~1\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-wisebirds-Wisebirds-AX-edu\\\\c9d987af-4b04-4f8a-8b6c-e5473b7a8fd9\\\\scratchpad\\\\shoot.mjs\")",
+      "Bash(cp \"C:\\\\Users\\\\WISEBI~1\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-wisebirds-Wisebirds-AX-edu\\\\c9d987af-4b04-4f8a-8b6c-e5473b7a8fd9\\\\scratchpad\\\\shoot.mjs\" \"c:/Users/wisebirds/Wisebirds-AX_edu/_shoot.mjs\")",
+      "Bash(node _shoot.mjs)",
+      "Bash(node _shoot.mjs \"C:/Users/WISEBI~1/AppData/Local/Temp/claude/c--Users-wisebirds-Wisebirds-AX-edu/c9d987af-4b04-4f8a-8b6c-e5473b7a8fd9/scratchpad/shots\" \"cover,a-divider,a-windows,a-types,b-what,b-cv,b-privacy,c-onelink,c-app2web,summary,qna\")",
+      "Bash(node _shoot.mjs \"C:/Users/WISEBI~1/AppData/Local/Temp/claude/c--Users-wisebirds-Wisebirds-AX-edu/c9d987af-4b04-4f8a-8b6c-e5473b7a8fd9/scratchpad/shots\" \"cover,a-divider,goal,a-windows,qna\")",
+      "Bash(node _shoot.mjs \"C:/Users/WISEBI~1/AppData/Local/Temp/claude/c--Users-wisebirds-Wisebirds-AX-edu/c9d987af-4b04-4f8a-8b6c-e5473b7a8fd9/scratchpad/shots\" \"a-windows,b-what,b-cv,c-app2web,summary,qna\")",
+      "Bash(node _nav_test.mjs)",
+      "Bash(rm -f _shoot.mjs _nav_test.mjs)",
+      "Bash(npm uninstall *)",
+      "WebFetch(domain:stardive.netmarble.com)",
+      "Bash(node _ref.mjs)",
+      "Read(//c/Users/wisebirds/zqendix/app/beta/presentation/**)",
+      "Read(//c/Users/wisebirds/zqendix/app/presentation/_components/**)",
+      "Bash(node _shoot.mjs 3001)",
+      "Bash(npx next *)",
+      "Bash(npx kill-port *)",
+      "Bash(PORT=3005 npx next start -p 3005)",
+      "Bash(curl -s -o /dev/null -w \"warmup: %{http_code}\\\\n\" http://localhost:3001)",
+      "Bash(curl -s -o /dev/null -w \"dev server: HTTP %{http_code} @ localhost:3001\\\\n\" http://localhost:3001)"
+    ]
+  }
+}
